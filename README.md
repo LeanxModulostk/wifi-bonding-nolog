@@ -5,7 +5,7 @@
 ## Description
 Active doubles your bandwidth and disables Wi-Fi packet logging (has high overhead and various related security issues) and others logs to save battery life. (and more tweaks-go to GitHub)
 
-## Details:
+## Others tweaks manual:
 - Force Wi-fi Low Latency Mode: This mode consumes more energy even if the screen is off if you want to activate it follow the steps below.
 1. Open Termux and type:
 su -c wifilatency
