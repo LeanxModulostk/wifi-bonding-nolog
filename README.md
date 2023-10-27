@@ -26,7 +26,6 @@ su -c "/bin/ifconfig wlan0"
 su -c "/bin/ifconfig wlan0 txqueuelen valor"
 
 ## Installation
-0. Remove the old version first (and reboot)
 1. First delete your Wi-Fi password
 2. Uninstall previous version of this module (reboot)
 3. Install the module in Magisk (reboot)
