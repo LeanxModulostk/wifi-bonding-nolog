@@ -26,7 +26,7 @@ sleep 60
 su -c "stop tcpdump vendor.tcpdump vendor_tcpdump cnss_diag vendor.cnss_diag"
 
 #————————————————————————————#
-#              Clear Wifi Logs                   #
+#              Clear Wifi Logs                     #
 #————————————————————————————#
 rm -rf /data/vendor/wlan_logs
 touch /data/vendor/wlan_logs

@@ -3,7 +3,7 @@
 ![](https://i.ibb.co/0hMGsNj/1690350350097.png)
 
 ## Description
-Active doubles your bandwidth and disables Wi-Fi packet logging (has high overhead and various related security issues) and others logs to save battery life. (and more tweaks-go to GitHub)
+This module doubles your bandwidth, disables Wi-Fi packet logging (has high overhead and several related security issues) and other logging for less background load and perhaps some battery life.
 
 ## Others tweaks manual:
 - Force Wi-fi Low Latency Mode: This mode consumes more energy even if the screen is off if you want to activate it follow the steps below.

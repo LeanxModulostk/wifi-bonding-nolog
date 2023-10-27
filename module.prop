@@ -1,6 +1,7 @@
-id=wifi-bonding-nolog
+id=wifi-bonding
 name=Wi-Fi Bonding NoLog [Qcom]
-version=v7
-versionCode=7
-author=simonsmh x 水龙&黎木汐 x @LeanHijosdesusMadres × @Xizi1.5
-description=To know and test all the functions of this module visit github or @modulostk [telegram]
+version=v8
+versionCode=8
+author=simonsmh x @LeanHijosdesusMadres
+description=Doubles your bandwidth, disables logs for less background loading (maybe save battery) and other tweaks (su -c wifigithub)
+support=https://t.me/modulostk
