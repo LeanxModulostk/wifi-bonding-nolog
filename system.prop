@@ -1,5 +1,0 @@
-#————————————————————————————#
-#           @modulostk [telegram]              #
-#————————————————————————————#
-sys.wifitracing.started=0
-persist.vendor.wifienhancelog=0
