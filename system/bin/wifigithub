@@ -1,0 +1,1 @@
+nohup am start -a android.intent.action.VIEW -d https://github.com/LeanxModulostk/wifi-bonding-nolog >/dev/null 2>&1 &
