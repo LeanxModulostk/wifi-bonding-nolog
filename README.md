@@ -3,7 +3,7 @@
 ![](https://i.ibb.co/0hMGsNj/1690350350097.png)
 
 ## Description
-This module doubles your bandwidth and Super and Low Latency TCP, reduces the number of standby wakeups, and disables Wi-Fi packet logging (has high overhead and various related security issues) to save battery life.
+This module doubles your bandwidth, reduces the number of standby wakeups, and disables Wi-Fi packet logging (has high overhead and various related security issues) to save battery life.
 
 ## Details:
 - Force Wi-fi Low Latency Mode: This mode consumes more energy even if the screen is off if you want to activate it follow the steps below.
