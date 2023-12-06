@@ -3,10 +3,7 @@
 #————————————————————————————#
 #Esto prioriza la reducción de la latencia en lugar de maximizar el rendimiento o la utilización de los recursos de red.
 #El modo de baja latencia puede ser útil en aplicaciones en tiempo real o sensibles a la latencia, como videojuegos en línea, transmisión de multimedia en tiempo real o servicios de voz sobre IP (VoIP). Al activar el modo de baja latencia, se busca minimizar la cantidad de tiempo que tardan los paquetes en viajar a través de la red y reducir el retardo en la entrega de los datos.
-echo "▸Please wait moment"
-sleep 2
 echo "1" > "/proc/sys/net/ipv4/tcp_low_latency"
-sleep 2
 echo " "
 echo "░█████╗░███╗░░██╗"
 echo "██╔══██╗████╗░██║"
