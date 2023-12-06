@@ -1,7 +1,4 @@
-echo "▸Please wait moment"
-sleep 2
 su -c "cmd wifi force-low-latency-mode disabled"
-sleep 2
 echo " "
 echo "░█████╗░███████╗███████╗"
 echo "██╔══██╗██╔════╝██╔════╝"
