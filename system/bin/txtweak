@@ -5,10 +5,7 @@
 #Cuando se establece la longitud de la cola de transmisión con `txqueuelen`, se define el número máximo de paquetes que pueden encolarse para su transmisión en la interfaz de red. Un valor más alto permite una cola de transmisión más grande, lo que puede ser beneficioso en situaciones de alta carga de red o de congestión, ya que proporciona un mayor espacio para encolar paquetes antes de que se descarten o se produzcan retrasos en la transmisión.
 #Verifica el valor actual de "txqueuelen" (verificar esti antes o desactiva el modulo reinicia y verifica):
 #su -c "/bin/ifconfig wlan0"
-echo "▸Please wait moment"
-sleep 2
 su -c "/bin/ifconfig wlan0 txqueuelen 4000"
-sleep 2
 echo " "
 echo "░█████╗░███╗░░██╗"
 echo "██╔══██╗████╗░██║"
