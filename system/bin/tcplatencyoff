@@ -1,5 +1,3 @@
-echo "▸Please wait moment"
-sleep 2
 echo "0" > "/proc/sys/net/ipv4/tcp_low_latency"
 echo " "
 echo "░█████╗░███████╗███████╗"
