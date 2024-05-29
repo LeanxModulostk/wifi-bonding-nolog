@@ -12,7 +12,7 @@ su -c wifilatency
 2. To disable it:
 su -c wifilatencyoff
 
-- Tcp low latency (eliminado): This is a legacy option, it has no effect anymore.
+- Tcp low latency (deleted): This is a legacy option, it has no effect anymore.
 
 - ▸ Increase Transmission Queue Length:The txqueuelen option in the ifconfig command is used to set or display the transmission queue length for a network interface on Linux. Transmission queue length refers to the maximum number of packets that can wait in the transmission queue before being sent. When you set the transmission queue length with txqueuelen, you define the maximum number of packets that can be queued for transmission on the network interface. A higher value allows for a larger transmission queue, which can be beneficial in high network load or congestion situations, as it provides more space to queue packets before they are dropped or transmission delays occur.
 1. First check the value of txqueuelen with the following command (termux):
