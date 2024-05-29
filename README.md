@@ -14,7 +14,7 @@ su -c wifilatencyoff
 
 - Tcp low latency (deleted): This is a legacy option, it has no effect anymore.
 
-- ▸ Increase Transmission Queue Length:The txqueuelen option in the ifconfig command is used to set or display the transmission queue length for a network interface on Linux. Transmission queue length refers to the maximum number of packets that can wait in the transmission queue before being sent. When you set the transmission queue length with txqueuelen, you define the maximum number of packets that can be queued for transmission on the network interface. A higher value allows for a larger transmission queue, which can be beneficial in high network load or congestion situations, as it provides more space to queue packets before they are dropped or transmission delays occur.
+- Increase Transmission Queue Length:The txqueuelen option in the ifconfig command is used to set or display the transmission queue length for a network interface on Linux. Transmission queue length refers to the maximum number of packets that can wait in the transmission queue before being sent. When you set the transmission queue length with txqueuelen, you define the maximum number of packets that can be queued for transmission on the network interface. A higher value allows for a larger transmission queue, which can be beneficial in high network load or congestion situations, as it provides more space to queue packets before they are dropped or transmission delays occur.
 1. First check the value of txqueuelen with the following command (termux):
 su -c "/bin/ifconfig wlan0"
 2. If the default value of txqueuelen is equal to or greater than 4000 you should edit the txtweak file (system/bin) inside the module and increase the value to test.
