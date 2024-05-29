@@ -12,11 +12,7 @@ su -c wifilatency
 2. To disable it:
 su -c wifilatencyoff
 
-- TCP Low Latency: This mode can be useful in real-time or latency-sensitive applications (online gaming, live streaming, and others).
-1. Open Termux and type:
-su -c tcplatency
-2. To disable it:
-su -c tcplatencyoff
+- Tcp low latency (eliminado): This is a legacy option, it has no effect anymore.
 
 - ▸ Increase Transmission Queue Length:The txqueuelen option in the ifconfig command is used to set or display the transmission queue length for a network interface on Linux. Transmission queue length refers to the maximum number of packets that can wait in the transmission queue before being sent. When you set the transmission queue length with txqueuelen, you define the maximum number of packets that can be queued for transmission on the network interface. A higher value allows for a larger transmission queue, which can be beneficial in high network load or congestion situations, as it provides more space to queue packets before they are dropped or transmission delays occur.
 1. First check the value of txqueuelen with the following command (termux):
@@ -49,6 +45,8 @@ su -c "/bin/ifconfig wlan0 txqueuelen valor"
 • [syphyr for disable wifi packet logging](https://gitea.rockhost.se/Piteball/android_device_samsung_msm8976-common/commit/be2d161200b87de43d7f4f86a8176efd5627b9b1)
 
 • [~~@Xizi1.5 for Super TCP~~](https://t.me/modulostk/99)
+
+• [tcp_max_reordering](https://sysctl-explorer.net/net/ipv4/tcp_max_reordering/)
 
 • [Zackptg5 for the MMT-Ex template](https://github.com/Zackptg5)
 

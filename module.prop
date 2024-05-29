@@ -1,6 +1,6 @@
-id=wifi-bonding
+id=wifi-bonding-nolog
 name=Wi-Fi Bonding NoLog [Qcom]
-version=v8
+version=1.17.1
 versionCode=8
 author=simonsmh x @LeanHijosdesusMadres
 description=Doubles your bandwidth, disables logs for less background loading (maybe save battery) and other tweaks (su -c wifigithub)
